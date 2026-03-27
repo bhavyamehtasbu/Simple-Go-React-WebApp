@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Foo Bar1",
+    "createDate": "2020-10-01",
+    "passwordChanged": "2021-10-01",
+    "lastAccess": "2025-01-04",
+    "mfaEnabled": true
+  },
+  {
+    "name": "Foo1 Bar1",
+    "createDate": "2019-09-20",
+    "passwordChanged": "2019-09-22",
+    "lastAccess": "2025-02-08",
+    "mfaEnabled": false
+  },
+  {
+    "name": "Foo2 Bar2",
+    "createDate": "2022-02-03",
+    "passwordChanged": "2022-02-03",
+    "lastAccess": "2025-02-12",
+    "mfaEnabled": false
+  },
+  {
+    "name": "Foo3 Bar3",
+    "createDate": "2023-03-07",
+    "passwordChanged": "2023-03-10",
+    "lastAccess": "2022-01-03",
+    "mfaEnabled": true
+  },
+  {
+    "name": "Foo Bar4",
+    "createDate": "2018-04-08",
+    "passwordChanged": "2020-04-12",
+    "lastAccess": "2022-10-04",
+    "mfaEnabled": false
+  },
+  {
+    "name": "Human1",
+    "createDate": "2018-04-08",
+    "passwordChanged": "2025-09-08",
+    "lastAccess": "2025-01-03",
+    "mfaEnabled": true
+  },
+  {
+    "name": "Human2",
+    "createDate": "2018-04-08",
+    "passwordChanged": "2023-09-08",
+    "lastAccess": "2025-05-03",
+    "mfaEnabled": false
+  },
+  {
+    "name": "Human3",
+    "createDate": "2025-04-08",
+    "passwordChanged": "2025-05-08",
+    "lastAccess": "2025-05-23",
+    "mfaEnabled": true
+  }
+]
