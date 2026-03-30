@@ -23,7 +23,11 @@ func daysSince(dateStr string) int {
 	if err != nil {
 		return 0
 	}
-	return int(time.Since(t).Hours() / 24)
+	now := time.Now()
+	t = t.Truncate(24 * time.Hour)
+	now = now.Truncate(24 * time.Hour)
+
+	return int(now.Sub(t).Hours() / 24)
 }
 
 func LoadUsers(w http.ResponseWriter, r *http.Request) {
