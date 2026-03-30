@@ -1,7 +1,3 @@
-Perfect! Here’s your README section with the new features integrated in a way that fits cleanly with the existing structure:
-
----
-
 # Simple-Go-React-WebApp - User Security Audit Dashboard
 
 This project has two parts:
